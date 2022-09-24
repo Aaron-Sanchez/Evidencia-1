@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #2b2b2b;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Facpya</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu " style="background-color: black;">
+                    <!-- el tarjet y el rel son para abrir en otras ventanas -->
+                  <li><a class="dropdown-item " style="color:red;" href="https://www.udemy.com/course/curso-completo-de-bases-de-datos-de-0-a-avanzado/?gclid=Cj0KCQjwyOuYBhCGARIsAIdGQROQpajSIJAGGMSOD9Gk6udOz145MPCJx1kxqVvQgZRQO-nHj2ewlrIaAth-EALw_wcB&matchtype=e&utm_campaign=SQL_v.PROF_la.ES_cc.MX&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_120062090523_._ad_604109810094_._kw_cursos+de+bases+de+datos+sql_._de_c_._dm__._pl__._ti_kwd-320293910760_._li_1010130_._pd__._" target="_blank" rel="noopener noreferrer">SQL:Curso completo de Bases de Datos de 0 a Avanzado</a></li>
+                  <li><a class="dropdown-item" style="color:red;"  href="https://www.edx.org/es/course/introduccion-a-sql-y-bases-de-datos-relacionales" target="_blank" rel="noopener noreferrer">Introducción a SQL y bases de datos relacionales</a></li>
+                  <li><a class="dropdown-item" style="color:red;" href="https://www.edx.org/es/course/sql-aplicado-en-la-ciencia-de-datos" target="_blank" rel="noopener noreferrer">SQL aplicado en la ciencia de datos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> <br>
+
+    <h1 style="text-align: center;">Bases de Datos</h1>
+    <p class="container">Una base de datos (del inglés: database) se encarga no solo de almacenar datos, sino también de conectarlos entre sí en una unidad lógica. En términos generales, una base de datos es un conjunto de datos estructurados que pertenecen a un mismo contexto y, en cuanto a su función, se utiliza para administrar de forma electrónica grandes cantidades de información.En este sentido; una biblioteca puede considerarse una base de datos compuesta en su mayoría por documentos y textos impresos en papel e indexados para su consulta. Actualmente, y debido al desarrollo tecnológico de campos como la informática y la electrónica, la mayoría de las bases de datos están en formato digital, siendo este un componente electrónico, por tanto se ha desarrollado y se ofrece un amplio rango de soluciones al problema del almacenamiento de datos.
+        Hay programas denominados sistemas gestores de bases de datos, abreviado SGBD (del inglés Database Management System o DBMS), que permiten almacenar y posteriormente acceder a los datos de forma rápida y estructurada. Las propiedades de estos DBMS, así como su utilización y administración, se estudian dentro del ámbito de la informática.
+        Las aplicaciones más usuales son para la gestión de empresas e instituciones públicas; También son ampliamente utilizadas en entornos científicos con el objeto de almacenar la información experimental. 
+    </p>
+    <center>
+      <img src="img/bd1.jpg" alt="Ejemplo1" width="300"><br><br>
+    </center>
+    <p class="container">Aunque las bases de datos pueden contener muchos tipos de datos, algunos de ellos se encuentran mutuamente protegidos por las leyes de varios países. Por ejemplo en España, los datos personales se encuentran protegidos por la Ley Orgánica de Protección de Datos de Carácter Personal (LOPD), en México por la Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental y en Argentina por la Ley de Protección de Datos Personales.
+        En Argentina el Código Penal sanciona ciertas conductas relacionadas con una base de datos: acceder ilegítimamente a un banco de datos personales, proporcionar o revelar información registrada en un archivo o en un banco de datos personales cuyo secreto estuviere obligado a guardar por ley o insertar o hacer insertar datos en un archivo de datos personales. Si el autor es funcionario público, sufre además pena de inhabilitación especial. 
+    </p>
+    <center>
+      <img src="img/bd2.png" alt="ejemplo2" width="300"><br><br>
+    </center>
+    <h2 style="text-align: center;">SQL</h2>
+    <p class="container">SQL es un lenguaje de consulta, usado como interfaz para comunicarse con bases de datos y realizar operaciones de acceso y manipulación de la información almacenada.</p>
+    <center>
+      <img src="img/bd3.jpg" alt="" width="300"><br><br>
+    </center>
+    <p class="container">SQL es un estándar mantenido por ANSI, por lo que las bases del lenguaje son las mismas en la mayoría de los motores de bases de datos relacionales. Una persona que conozca las bases del lenguaje, con el acceso a una referencia básica del motor particular con el que esté trabajando será capaz de escribir consultas para cualquier base de datos. La estructura de las consultas es prácticamente igual, aunque existen pequeñas diferencias a la hora de organizar los bloques de las sentencias y especificar operaciones o funciones de administración. También dependiendo del motor de base de datos puede tener soporte a algunas operaciones extra cómo procedimientos o transacciones, así como un juego de funciones específico.</p>
+    <center>
+      <img src="img/bd4.jpg" alt="" width="300"><br><br>
+    </center><br>
+    
+    <footer style="text-align: center;">
+      <p>&copy; 2022 Derechos reservados de los autores</p>
+      <p>ELABORADO POR EL EQUIPO 7 DEL GRUPO 78</p>
+      <p>PAGINA INFORMATIVA</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
